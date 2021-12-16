@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #IDs\
+MY_ID = 40191499\
+PARTNER_ID = 40199530\
+\
+#my data\
+p = 44101\
+q = 36643\
+N = 1615992943\
+Phi_N = 1615912200\
+e = 37693\
+d = 219710557\
+\
+#my partner data\
+PARTNER_N = 3502857563\
+PARTNER_e = 87623\
+\
+#encryption\
+MY_MESSAGE = RSA concordia\
+MY_MESSAGE_chunks = ['RSA', ' co', 'nco', 'rdi', 'a']\
+MY_CIPHERTEXT = [2786143068, 3167139421, 159603601, 2847792141, 1823970411]\
+\
+#decryption\
+PARTNER_CIPHERTEXT = [1378680580, 1564267064, 46528309, 287505561, 168718151, 334868354]\
+PARTNER_MESSAGE_chunks_AFTER_DECRYPT = ['Aca', 'dem', 'ic ', 'Int', 'egr', 'ity']\
+PARTNER_MESSAGE_AFTER_DECRYPT = Academic Integrity\
+\
+#sign\
+MY_MESSAGE_TO_BE_SIGNED= Mehul\
+MY_MESSAGE_TO_BE_SIGNED_chunks = ['Meh', 'ul']\
+MY_SIGNATURE = [744544464, 136981805]\
+\
+#verify the signature\
+PARTNER_SIGNED_MESSAGE = Surya\
+PARTNER_SIGNATURE = [711054654, 2454232689]\
+IS_VALID_SIGNATURE = True\
+}
